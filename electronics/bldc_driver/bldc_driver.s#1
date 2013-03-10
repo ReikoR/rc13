@@ -6491,9 +6491,9 @@ Source: AVX .. aphvc.pdf</description>
 <part name="RGLB" library="rcl" deviceset="R-EU_" device="R0603"/>
 <part name="RGHC" library="rcl" deviceset="R-EU_" device="R0603"/>
 <part name="RGLC" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="CBOOTB" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="CBOOTA" library="rcl" deviceset="C-EU" device="C0603"/>
-<part name="CBOOTC" library="rcl" deviceset="C-EU" device="C0603"/>
+<part name="CBOOTB" library="rcl" deviceset="C-EU" device="C0603" value="47nF"/>
+<part name="CBOOTA" library="rcl" deviceset="C-EU" device="C0603" value="47nF"/>
+<part name="CBOOTC" library="rcl" deviceset="C-EU" device="C0603" value="47nF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
