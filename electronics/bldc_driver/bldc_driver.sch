@@ -7274,9 +7274,9 @@ DDEController.pdf</description>
 <label x="7.62" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-6" pin="S"/>
-<wire x1="-35.56" y1="73.66" x2="-25.4" y2="73.66" width="0.1524" layer="91"/>
-<label x="-33.02" y="73.66" size="1.778" layer="95"/>
+<pinref part="X1" gate="-3" pin="S"/>
+<wire x1="-35.56" y1="81.28" x2="-22.86" y2="81.28" width="0.1524" layer="91"/>
+<label x="-33.02" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -7331,7 +7331,7 @@ DDEController.pdf</description>
 </segment>
 <segment>
 <pinref part="X1" gate="-10" pin="S"/>
-<wire x1="-35.56" y1="63.5" x2="-25.4" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="63.5" x2="-22.86" y2="63.5" width="0.1524" layer="91"/>
 <label x="-33.02" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -7342,9 +7342,9 @@ DDEController.pdf</description>
 <label x="7.62" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-7" pin="S"/>
-<wire x1="-35.56" y1="71.12" x2="-25.4" y2="71.12" width="0.1524" layer="91"/>
-<label x="-33.02" y="71.12" size="1.778" layer="95"/>
+<pinref part="X1" gate="-1" pin="S"/>
+<wire x1="-35.56" y1="86.36" x2="-22.86" y2="86.36" width="0.1524" layer="91"/>
+<label x="-33.02" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TACHO" class="0">
@@ -7354,9 +7354,9 @@ DDEController.pdf</description>
 <label x="7.62" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-4" pin="S"/>
-<wire x1="-35.56" y1="78.74" x2="-25.4" y2="78.74" width="0.1524" layer="91"/>
-<label x="-33.02" y="78.74" size="1.778" layer="95"/>
+<pinref part="X1" gate="-5" pin="S"/>
+<wire x1="-35.56" y1="76.2" x2="-22.86" y2="76.2" width="0.1524" layer="91"/>
+<label x="-33.02" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIRO" class="0">
@@ -7367,7 +7367,7 @@ DDEController.pdf</description>
 </segment>
 <segment>
 <pinref part="X1" gate="-9" pin="S"/>
-<wire x1="-35.56" y1="66.04" x2="-25.4" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="66.04" x2="-22.86" y2="66.04" width="0.1524" layer="91"/>
 <label x="-33.02" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -7386,9 +7386,9 @@ DDEController.pdf</description>
 <label x="7.62" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-3" pin="S"/>
-<wire x1="-35.56" y1="81.28" x2="-25.4" y2="81.28" width="0.1524" layer="91"/>
-<label x="-33.02" y="81.28" size="1.778" layer="95"/>
+<pinref part="X1" gate="-6" pin="S"/>
+<wire x1="-35.56" y1="73.66" x2="-22.86" y2="73.66" width="0.1524" layer="91"/>
+<label x="-33.02" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FF2" class="0">
@@ -7398,9 +7398,9 @@ DDEController.pdf</description>
 <label x="7.62" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-2" pin="S"/>
-<wire x1="-35.56" y1="83.82" x2="-25.4" y2="83.82" width="0.1524" layer="91"/>
-<label x="-33.02" y="83.82" size="1.778" layer="95"/>
+<pinref part="X1" gate="-7" pin="S"/>
+<wire x1="-35.56" y1="71.12" x2="-22.86" y2="71.12" width="0.1524" layer="91"/>
+<label x="-33.02" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -7433,21 +7433,21 @@ DDEController.pdf</description>
 <label x="7.62" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-8" pin="S"/>
-<wire x1="-35.56" y1="68.58" x2="-25.4" y2="68.58" width="0.1524" layer="91"/>
-<label x="-33.02" y="68.58" size="1.778" layer="95"/>
+<pinref part="X1" gate="-2" pin="S"/>
+<wire x1="-35.56" y1="83.82" x2="-22.86" y2="83.82" width="0.1524" layer="91"/>
+<label x="-33.02" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RESET" class="0">
 <segment>
-<pinref part="X1" gate="-1" pin="S"/>
-<wire x1="-35.56" y1="86.36" x2="-25.4" y2="86.36" width="0.1524" layer="91"/>
-<label x="-33.02" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="DRV" gate="G$1" pin="RESET"/>
 <wire x1="17.78" y1="58.42" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
 <label x="7.62" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-8" pin="S"/>
+<wire x1="-35.56" y1="68.58" x2="-22.86" y2="68.58" width="0.1524" layer="91"/>
+<label x="-33.02" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -7464,9 +7464,9 @@ DDEController.pdf</description>
 <label x="7.62" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-5" pin="S"/>
-<wire x1="-35.56" y1="76.2" x2="-25.4" y2="76.2" width="0.1524" layer="91"/>
-<label x="-33.02" y="76.2" size="1.778" layer="95"/>
+<pinref part="X1" gate="-4" pin="S"/>
+<wire x1="-35.56" y1="78.74" x2="-22.86" y2="78.74" width="0.1524" layer="91"/>
+<label x="-33.02" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
