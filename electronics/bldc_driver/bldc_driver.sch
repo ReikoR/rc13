@@ -8504,11 +8504,11 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="-6.604" y="65.659" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-6.604" y="60.579" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="RDEAD" gate="G$1" x="-5.08" y="45.72"/>
+<instance part="RDEAD" gate="G$1" x="0" y="45.72"/>
 <instance part="GND2" gate="1" x="-15.24" y="40.64"/>
-<instance part="RREF" gate="G$1" x="-7.62" y="25.4"/>
-<instance part="P+10" gate="1" x="-15.24" y="30.48" smashed="yes">
-<attribute name="VALUE" x="-17.78" y="31.75" size="1.778" layer="96"/>
+<instance part="RREF" gate="G$1" x="0" y="25.4"/>
+<instance part="P+10" gate="1" x="-7.62" y="30.48" smashed="yes">
+<attribute name="VALUE" x="-10.16" y="31.75" size="1.778" layer="96"/>
 </instance>
 <instance part="C2" gate="G$1" x="15.24" y="91.44"/>
 <instance part="GND9" gate="1" x="15.24" y="78.74"/>
@@ -8837,7 +8837,7 @@ Source: www.kingbright.com</description>
 <pinref part="RDEAD" gate="G$1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="-15.24" y1="43.18" x2="-15.24" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="45.72" x2="-10.16" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="45.72" x2="-5.08" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
@@ -9117,9 +9117,9 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="P+10" gate="1" pin="+5V"/>
-<wire x1="-15.24" y1="27.94" x2="-15.24" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="27.94" x2="-7.62" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="RREF" gate="G$1" pin="1"/>
-<wire x1="-15.24" y1="25.4" x2="-12.7" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="25.4" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="DRV" gate="G$1" pin="V5"/>
@@ -9140,7 +9140,7 @@ Source: www.kingbright.com</description>
 <net name="N$14" class="0">
 <segment>
 <pinref part="DRV" gate="G$1" pin="RDEAD"/>
-<wire x1="17.78" y1="45.72" x2="0" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="45.72" x2="5.08" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="RDEAD" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -9239,7 +9239,7 @@ Source: www.kingbright.com</description>
 <net name="N$17" class="0">
 <segment>
 <pinref part="DRV" gate="G$1" pin="REF"/>
-<wire x1="17.78" y1="25.4" x2="-2.54" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="25.4" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="RREF" gate="G$1" pin="2"/>
 </segment>
 </net>
