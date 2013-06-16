@@ -2,7 +2,7 @@
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
-OutputPath=
+OutputPath=Project Outputs for Põhiplaat
 LogFolderPath=
 ReleasesFolder=
 ReleaseVaultGUID=
@@ -175,7 +175,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document10]
-DocumentPath=CAMtastic1.Cam
+DocumentPath=Job1.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -191,7 +191,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document11]
-DocumentPath=CAMtastic2.Cam
+DocumentPath=CAMtastic1.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -211,31 +211,39 @@ DocumentPath=Project Outputs for Põhiplaat\Design Rule Check - Põhiplaat.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Põhiplaat\Põhiplaat.EXTREP
+DocumentPath=Project Outputs for Põhiplaat\NC Drill\Põhiplaat.DRL
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Põhiplaat\Põhiplaat.GBL
+DocumentPath=Project Outputs for Põhiplaat\NC Drill\Põhiplaat.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Põhiplaat\Põhiplaat.GG1
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Põhiplaat.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Põhiplaat\Põhiplaat.GKO
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Põhiplaat.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Põhiplaat\Põhiplaat.GTL
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Põhiplaat.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Põhiplaat\Põhiplaat.REP
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Põhiplaat.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Põhiplaat\Põhiplaat.RUL
+DocumentPath=Project Outputs for Põhiplaat\NC Drill\Põhiplaat.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Põhiplaat.REP
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Põhiplaat\NC Drill\Põhiplaat.TXT
 DItemRevisionGUID=
 
 [PCBConfiguration1]
