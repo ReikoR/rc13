@@ -2,7 +2,6 @@
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
-OutputPath=Project Outputs for Põhiplaat
 LogFolderPath=
 ReleasesFolder=
 ReleaseVaultGUID=
@@ -20,7 +19,7 @@ AllowPortNetNames=0
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
-DefaultConfiguration=
+DefaultConfiguration=Default Configuration
 UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
@@ -29,9 +28,11 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
+ReportSuppressedErrorsInMessages=0
+OutputPath=Project Outputs for Põhiplaat
 
 [Document1]
-DocumentPath=Põhiplaat.PcbDoc
+DocumentPath=Pohiplaat.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -190,69 +191,79 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document11]
-DocumentPath=CAMtastic1.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Põhiplaat\NC Drill\Põhiplaat.DRL
+DocumentPath=Project Outputs for Põhiplaat\NC Drill\Pohiplaat.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Põhiplaat\NC Drill\Põhiplaat.DRR
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Pohiplaat.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Põhiplaat\Gerber\Põhiplaat.EXTREP
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Pohiplaat.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Põhiplaat\Gerber\Põhiplaat.GBL
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Pohiplaat.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Põhiplaat\Gerber\Põhiplaat.GM1
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Pohiplaat.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Põhiplaat\Gerber\Põhiplaat.GTL
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Pohiplaat.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Põhiplaat\NC Drill\Põhiplaat.LDP
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Pohiplaat.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Põhiplaat\Gerber\Põhiplaat.REP
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Pohiplaat.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Põhiplaat\NC Drill\Põhiplaat.TXT
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Pohiplaat.GTL
 DItemRevisionGUID=
 
-[PCBConfiguration1]
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Pohiplaat.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Pohiplaat.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Põhiplaat\NC Drill\Pohiplaat.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Põhiplaat\Gerber\Pohiplaat.REP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Põhiplaat\NC Drill\Pohiplaat.TXT
+DItemRevisionGUID=
+
+[Configuration1]
+Name=Default Configuration
+ParameterCount=0
+ConstraintFileCount=0
 ReleaseItemId=
 CurrentRevision=
-Name=Default Configuration
 Variant=[No Variations]
 GenerateBOM=0
+OutputJobsCount=0
+
+[Generic_EDE]
+OutputDir=Project Outputs for Põhiplaat
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -383,7 +394,7 @@ OutputDefault25=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -404,7 +415,7 @@ OutputDefault3=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembler Source Print
 OutputName1=Assembler Source Prints
@@ -508,11 +519,17 @@ OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
 PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType18=PCBLIB Print
+OutputName18=PCBLIB Prints
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -534,7 +551,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Drill
 OutputName1=Drill Drawing/Guides
@@ -592,7 +609,7 @@ Configuration9_Item1=AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TL
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -629,7 +646,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -809,7 +826,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -838,13 +855,18 @@ OutputDefault4=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Samsung Universal Print Driver
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=ExportSTEP
 OutputName1=Export STEP
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
+OutputType2=ExportIDF
+OutputName2=Export IDF
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
 
 [Modification Levels]
 Type1=1
@@ -921,6 +943,10 @@ Type71=1
 Type72=1
 Type73=1
 Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
 
 [Difference Levels]
 Type1=1
@@ -963,6 +989,9 @@ Type37=1
 Type38=1
 Type39=1
 Type40=1
+Type41=1
+Type42=1
+Type43=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1087,12 +1116,14 @@ L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
 SortOrder=3
+SortLocation=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
 MatchStrictly2=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
+GlobalIndexSortLocation=0
 
 [PrjClassGen]
 CompClassManualEnabled=0

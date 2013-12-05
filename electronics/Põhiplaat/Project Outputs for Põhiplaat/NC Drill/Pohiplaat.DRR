@@ -1,0 +1,20 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Pohiplaat.PcbDoc   5.12.2013  15:06:21
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Pohiplaat.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.711mm (27.992mil)      Round          1                0.00 mm (0.00 Inch)
+T2        0.7112mm (28mil)         Round          113              806.04 mm (31.73 Inch)
+T3        0.762mm (30mil)          Round          142              767.37 mm (30.21 Inch)
+T4        0.9mm (35.433mil)        Round          6                12.70 mm (0.50 Inch)
+T5        1.5mm (59.055mil)        Round          14               485.31 mm (19.11 Inch)
+T6        0.9mm (35.433mil)        Round          2         NPTH   4.40 mm (0.17 Inch)
+T7        3mm (118.11mil)          Round          4         NPTH   292.50 mm (11.52 Inch)
+---------------------------------------------------------------------------
+Totals                                            282              2368.32 mm (93.24 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:01
